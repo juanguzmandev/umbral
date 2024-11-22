@@ -13,11 +13,11 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        hand: "url('/background.png')"
+        woods: "url('/bosque2.jpg')"
       }
     },
     fontFamily: {
-      simonetta: ['Simonetta', 'serif'],
+      simonetta: ['"Simonetta"', 'serif'],
       bankGothic: ['"BankGothic"','sans-serif']
     }
   },

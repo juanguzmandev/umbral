@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/bankgothic-md-bt');
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -21,4 +22,29 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.neonText {animation: flicker 4s infinite alternate;}
+
+.neonLink:hover {animation: flicker 4s infinite alternate;}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #2a593b,
+      0 0 80px #2a593b,
+      0 0 90px #2a593b,
+      0 0 100px #2a593b,
+      0 0 150px #2a593b;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
 }
