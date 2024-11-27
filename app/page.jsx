@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-      <body className="bg-woods flex h-screen justify-center w-full">
+      <body className="bg-light bg-center bg-cover bg-no-repeat flex h-screen justify-center w-full">
         <div className="box-border flex flex-col justify-center text-center w-3/4">
           <div className="flex flex-row text-center">
             <div className="lg:p-8 p-4 w-1/3">

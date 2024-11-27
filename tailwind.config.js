@@ -13,7 +13,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        woods: "url('/bosque2.jpg')"
+        light: "url('/background_extended.gif')"
       }
     },
     fontFamily: {
