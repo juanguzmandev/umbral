@@ -4,24 +4,24 @@ export default function Page() {
         <div className="box-border flex flex-col justify-center text-center w-3/4">
           <div className="flex flex-row text-center">
             <div className="lg:p-8 p-4 w-1/3">
-            <a href="#" className="font-simonetta neonLink">Link 1</a>
+            <a href="#" className="font-simonetta neonLink">Link</a>
             </div>
             <div className="lg:p-8 p-4 w-1/3">
-            <a href="#" className="font-simonetta neonLink">Link 2</a>
+            <a href="#" className="font-simonetta neonLink">Link</a>
             </div>
             <div className="lg:p-8 p-4 w-1/3">
             <a href="#" className="font-simonetta neonLink">Link 3</a>
             </div>
           </div>
           <div className="flex flex-row text-center">
-            <div className="lg:p-8 p-4 w-1/3">
-              <a href="#" className="font-simonetta neonLink">Link 4</a>
+            <div className="lg:py-8 py-4 w-1/3">
+              <a href="https://youtu.be/U0i--wFqmCg" className="font-simonetta neonLink">Tráiler</a>
             </div>
             <div className="lg:p-8 p-4 w-1/3">
               <h1 className="font-bankGothic neonText text-center text-lg">UMBRAL</h1>
             </div>
-            <div className="lg:p-8 p-4 w-1/3">
-            <a href="#" className="font-simonetta neonLink">Link 5</a>
+            <div className="lg:py-8 py-4 w-1/3">
+            <a href="https://youtu.be/U0i--wFqmCg" className="font-simonetta neonLink">Podcast</a>
             </div>
           </div>
           <div className="flex flex-row text-center">
