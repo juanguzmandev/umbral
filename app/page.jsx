@@ -6,16 +6,16 @@ export default function Page() {
         <div className="box-border flex flex-col justify-between py-16 text-center w-3/4 lg:flex-row lg:w-full lg:py-8">
           <div className="flex flex-row text-center lg:flex-col lg:w-1/3">
             <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
-              <a className="neonLink neonTextSocial text-center text-sm" href="https://youtu.be/jyY4fvKB6ck?si=kK_wJ8A2BDCXCeOn">Tráiler</a>
+              <a className="font-courier neonLink neonTextSocial text-center text-sm" href="https://youtu.be/jyY4fvKB6ck?si=kK_wJ8A2BDCXCeOn">trailer</a>
             </div>
             <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
-              <a className="neonLink neonTextSocial text-center text-sm" href="https://youtu.be/U0i--wFqmCg">Podcast</a>
+              <a className="font-courier neonLink neonTextSocial text-center text-sm" href="https://youtu.be/U0i--wFqmCg">podcast</a>
             </div>
             <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
-              <a className="neonLink neonTextSocial text-center text-sm" href="https://www.canva.com/design/DAGYfbYduLg/-DuZtQtxt4z3viQZzPuVmQ/watch?utm_content=DAGYfbYduLg&utm_campaign=designshare&utm_medium=link&utm_source=editor">Cómic</a>
+              <a className="font-courier neonLink neonTextSocial text-center text-sm" href="https://www.canva.com/design/DAGYfbYduLg/-DuZtQtxt4z3viQZzPuVmQ/watch?utm_content=DAGYfbYduLg&utm_campaign=designshare&utm_medium=link&utm_source=editor">comic</a>
             </div>
             <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
-              <a className="neonLink neonTextSocial text-center text-sm" href="#">Álbum</a>
+              <a className="font-courier neonLink neonTextSocial text-center text-sm" href="#">album</a>
             </div>
           </div>
           <div className="flex flex-row text-center lg:items-center lg:w-1/3">

@@ -18,7 +18,8 @@ module.exports = {
     },
     fontFamily: {
       simonetta: ['"Simonetta"', 'serif'],
-      bankGothic: ['"BankGothic"','sans-serif']
+      bankGothic: ['"BankGothic"','sans-serif'],
+      courier: ['"Courier Prime"']
     }
   },
   plugins: [],
