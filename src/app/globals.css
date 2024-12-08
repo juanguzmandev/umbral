@@ -25,6 +25,7 @@ body {
 }
 
 .neonText {animation: flicker 4s infinite alternate;}
+.neonTextSocial {animation: flicker 100s infinite alternate;}
 
 .neonLink:hover {animation: flicker 4s infinite alternate;}
 
