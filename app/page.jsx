@@ -3,22 +3,22 @@ import Script from 'next/script'
 export default function Page() {
     return (
       <body className="bg-light bg-center bg-cover bg-no-repeat flex h-screen justify-center w-full">
-        <div className="box-border flex flex-col justify-between py-16 text-center w-3/4">
-          <div className="flex flex-row justify-items-center">
-            <div className="w-1/4">
-              <a href="#">Tráiler</a>
+        <div className="box-border flex flex-col justify-between py-16 text-center w-3/4 lg:flex-row lg:w-full lg:py-8">
+          <div className="flex flex-row text-center lg:flex-col lg:w-1/3">
+            <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
+              <a className="neonLink neonTextSocial text-center text-sm" href="https://youtu.be/jyY4fvKB6ck?si=kK_wJ8A2BDCXCeOn">Tráiler</a>
             </div>
-            <div className="w-1/4">
-              <a href="#">Podcast</a>
+            <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
+              <a className="neonLink neonTextSocial text-center text-sm" href="https://youtu.be/U0i--wFqmCg">Podcast</a>
             </div>
-            <div className="w-1/4">
-              <a href="#">Cómic</a>
+            <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
+              <a className="neonLink neonTextSocial text-center text-sm" href="https://www.canva.com/design/DAGYfbYduLg/-DuZtQtxt4z3viQZzPuVmQ/watch?utm_content=DAGYfbYduLg&utm_campaign=designshare&utm_medium=link&utm_source=editor">Cómic</a>
             </div>
-            <div className="w-1/4">
-              <a href="#">Álbum</a>
+            <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
+              <a className="neonLink neonTextSocial text-center text-sm" href="#">Álbum</a>
             </div>
           </div>
-          <div className="flex flex-row text-center">
+          <div className="flex flex-row text-center lg:items-center lg:w-1/3">
             <div className="w-1/3">
               <a href="https://youtu.be/U0i--wFqmCg" className="font-simonetta neonLink"></a>
             </div>
@@ -29,20 +29,20 @@ export default function Page() {
             <a href="https://youtu.be/U0i--wFqmCg" className="font-simonetta neonLink"></a>
             </div>
           </div>
-          <div className="flex flex-row text-center">
-            <div className="w-1/2">
-              <a className="font-bankGothic neonLink neonTextSocial text-center text-lg">
+          <div className="flex flex-row lg:flex-col lg:justify-end lg:items-end lg:w-1/3">
+            <div className="pr-6 text-right w-1/2 lg:px-10 lg:py-2 lg:text-right">
+              <a href="https://www.instagram.com/umbral.tls/" className="font-bankGothic neonLink neonTextSocial text-center text-lg">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
-            <div className="w-1/2">
-              <a className="font-bankGothic neonLink neonTextSocial text-center text-lg">
+            <div className="pl-6 text-left w-1/2 lg:px-10 lg:py-2 lg:text-right">
+              <a href="https://www.tiktok.com/@umbral.tls" className="font-bankGothic neonLink neonTextSocial text-center text-lg">
                 <i className="fa-brands fa-tiktok"></i>
               </a>
             </div>
           </div>
         </div>
-        <Script src="https://kit.fontawesome.com/umbral.js" />
+        <Script src="https://kit.fontawesome.com/75787c7f65.js" />
       </body>
     );
   }
