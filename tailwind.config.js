@@ -13,7 +13,8 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        light: "url('/background_extended.gif')"
+        light: "url('/background_extended.gif')",
+        woods: "url('/woods.webp')"
       }
     },
     fontFamily: {

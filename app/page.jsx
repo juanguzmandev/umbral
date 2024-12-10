@@ -2,8 +2,8 @@ import Script from 'next/script'
 
 export default function Page() {
     return (
-      <body className="bg-light bg-center bg-cover bg-no-repeat flex h-screen justify-center w-full">
-        <div className="box-border flex flex-col justify-between py-14 text-center w-3/4 lg:flex-row lg:w-full lg:py-8">
+      <body className="bg-woods bg-center bg-cover bg-no-repeat flex h-screen justify-center w-full">
+        <div className="bg-light bg-center bg-cover bg-no-repeat box-border flex flex-col justify-between opacity-70 py-14 text-center w-3/4 lg:flex-row lg:w-full lg:py-8">
           <div className="flex flex-row text-center lg:flex-col lg:w-1/3">
             <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
               <a className="font-courier neonLink neonTextSocial text-center text-sm" href="https://youtu.be/jyY4fvKB6ck?si=kK_wJ8A2BDCXCeOn">trailer</a>
@@ -15,7 +15,7 @@ export default function Page() {
               <a className="font-courier neonLink neonTextSocial text-center text-sm" href="https://www.canva.com/design/DAGYfbYduLg/-DuZtQtxt4z3viQZzPuVmQ/watch?utm_content=DAGYfbYduLg&utm_campaign=designshare&utm_medium=link&utm_source=editor">comic</a>
             </div>
             <div className="w-1/4 lg:text-left lg:pl-8 lg:py-3">
-              <a className="font-courier neonLink neonTextSocial text-center text-sm" href="#">album</a>
+              <a className="font-courier neonLink neonTextSocial text-center text-sm" href="https://on.soundcloud.com/e5E7VaYZEyvAEors9">album</a>
             </div>
           </div>
           <div className="flex flex-row text-center lg:items-center lg:w-1/3">
