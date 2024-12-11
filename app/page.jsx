@@ -6,7 +6,7 @@ export default function Page() {
         <div className="bg-light bg-center bg-cover bg-no-repeat box-border flex flex-col justify-between opacity-50 py-14 text-center w-full lg:flex-row lg:py-8">
           <div className="relative flex flex-row text-center px-4 lg:flex-col lg:w-1/3">
             <div className="w-1/5 lg:text-left lg:pl-8 lg:py-3">
-              <a className="brightness-200 font-courier neonLink neonTextSocial !opacity-100 text-center text-white text-xs" href="https://youtu.be/6_MPgl1yNQc">miniserie</a>
+              <a className="brightness-200 font-courier neonLink neonTextSocial !opacity-100 text-center text-white text-xs" href="https://youtu.be/pDVbg8W6teE">miniserie</a>
             </div>
             <div className="w-1/5 lg:text-left lg:pl-8 lg:py-3">
               <a className="brightness-200 font-courier neonLink neonTextSocial !opacity-100 text-center text-white text-xs" href="https://youtu.be/_sNjmxyki50">podcast</a>
